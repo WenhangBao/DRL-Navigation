@@ -34,9 +34,6 @@ The task is episodic, and in order to solve the environment, your agent must get
 
 2. Place the file in the DRLND GitHub repository, in the `p1_navigation/` folder, and unzip (or decompress) the file. 
 
-### Instructions
-
-Follow the instructions in `Navigation.ipynb` to get started with training your own agent!  
 
 ### (Optional) Challenge: Learning from Pixels
 
@@ -53,3 +50,15 @@ You need only select the environment that matches your operating system:
 Then, place the file in the `p1_navigation/` folder in the DRLND GitHub repository, and unzip (or decompress) the file.  Next, open `Navigation_Pixels.ipynb` and follow the instructions to learn how to use the Python API to control the agent.
 
 (_For AWS_) If you'd like to train the agent on AWS, you must follow the instructions to [set up X Server](https://github.com/Unity-Technologies/ml-agents/blob/master/docs/Training-on-Amazon-Web-Service.md), and then download the environment for the **Linux** operating system above.
+
+
+### Code
+
+I completed this project with duplicate the DQN network used in our homework with minor changes. 
+
+- File dqn_agent.py is about the agent, model.py is the neural network model. 
+- Run Navigation.ipynb would return the model weight checkpoint.pth. 
+- Report.pdf is the pdf version of Navigation.ipynb
+- The checkpoint15.pth file is the model weight which has average score of 15 over the last 100 episodes. 
+- The learning curve over 2000 episodes is in the Navigation.ipynb file. It is slightly better than benchmark implementation.
+- Did not try pixel-based model because device limitation
