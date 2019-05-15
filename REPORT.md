@@ -18,6 +18,8 @@ We train the agent for at most 2000 episodes. The training process stops one the
 
 ### Result
 ![Scores](results.png)
+
+
 First I set the target to average score of +15 and save the model weights to file checkpoint15.pth . Then I set the target to average score of +20 to generate the result plot shown above. 
 
 ### Future Work
